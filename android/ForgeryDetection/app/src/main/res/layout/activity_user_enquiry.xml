@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".UserEnquiry">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Enquiry" />
+
+    <EditText
+        android:id="@+id/en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+
+        android:inputType="textPersonName"
+        android:hint="Enquiry" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+
+    <ListView
+        android:id="@+id/enqv"
+        android:layout_width="match_parent"
+        android:background="@drawable/vh"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
